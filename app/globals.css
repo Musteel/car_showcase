@@ -70,11 +70,11 @@
 }
 
 .home__filters {
-  @apply mt-12 w-full flex-between items-center flex-wrap gap-5;
+  @apply mt-12 w-full flex-between items-center flex-wrap gap-5 z-auto;
 }
 
 .home__filter-container {
-  @apply flex justify-start flex-wrap items-center gap-2;
+  @apply flex justify-start flex-wrap items-center gap-2 z-auto;
 }
 
 .home__cars-wrapper {
@@ -214,6 +214,6 @@
 }
 
 .search-manufacturer__option {
-  @apply cursor-default select-none py-2 pl-10 pr-4;
+  @apply relative cursor-default select-none py-2 pl-10 pr-4;
 }
 /* END: search manufacturer styles */
